@@ -1,0 +1,29 @@
+{
+  "name": "Concert workflows (rest)",
+  "description": "Workflows used in concert scenarios",
+  "categories": [
+    {
+      "name": "Resource Creation",
+      "path": "Resource Creation"
+    },
+    {
+      "name": "Compute Management",
+      "path": "Compute Management"
+    }
+  ],
+  "bundles": ["https://github.com/ViktorSlavov/workflows-resource-creation/raw/refs/heads/main/manifest.json", "https://github.com/IBM/Concert/raw/refs/tags/v2.4.0.prerelease01/concert-workflows/manifest.json"],
+  "tagDefinitions": [{
+	"id": "team",
+	"name": "Team",
+	"description": "This denotes a filter",
+	"values": [{
+		"id": "team:security",
+		"name": "Security",
+		"description": "Will be used by security team (overwritten_"
+	}, {
+		"id": "team:test",
+		"name": "Test Team",
+		"description": "Team responsible for testing testy stuff."
+	}]
+  }]
+}

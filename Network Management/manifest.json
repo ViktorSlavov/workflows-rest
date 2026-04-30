@@ -1,0 +1,18 @@
+{
+  "name": "Network Management",
+  "description": "Manages networks",
+  "entries": [
+    {
+      "name": "Add DNS entry to AWS Route 53",
+      "path": "Add_DNS_Entry_to_AWS_Route53.zip",
+      "description": "Adds a DNS entry to AWS Route 53",
+      "integrations": ["AWS", "Common"]
+    },
+	{
+      "name": "Add SevOne Device metadata from Excel",
+      "path": "Add_SevOne_Device_Metadata_from_Excel.zip",
+      "description": "Adds metadata from uploaded Excel to a SevOne device.",
+      "integrations": ["SevOne", "Excel", "Common"]
+    }
+  ]
+}
