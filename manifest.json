@@ -3,12 +3,12 @@
   "description": "Workflows used in concert scenarios",
   "categories": [
     {
-      "name": "Resource Creation",
-      "path": "Resource Creation"
+      "name": "Network Management",
+      "path": "Network Management"
     },
     {
-      "name": "Compute Management",
-      "path": "Compute Management"
+      "name": "System Testing",
+      "path": "System Testing"
     }
   ],
   "bundles": ["https://github.com/ViktorSlavov/workflows-resource-creation/raw/refs/heads/main/manifest.json", "https://github.com/IBM/Concert/raw/refs/tags/v2.4.0.prerelease01/concert-workflows/manifest.json"],
