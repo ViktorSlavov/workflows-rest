@@ -6,13 +6,15 @@
       "name": "Add DNS entry to AWS Route 53",
       "path": "Add_DNS_Entry_to_AWS_Route53.zip",
       "description": "Adds a DNS entry to AWS Route 53",
-      "integrations": ["AWS", "Common"]
+      "integrations": ["AWS", "Common"],
+      "tags": ["team:security"]
     },
 	{
       "name": "Add SevOne Device metadata from Excel",
       "path": "Add_SevOne_Device_Metadata_from_Excel.zip",
       "description": "Adds metadata from uploaded Excel to a SevOne device.",
-      "integrations": ["SevOne", "Excel", "Common"]
+      "integrations": ["SevOne", "Excel", "Common"],
+      "tags": ["team:test"]
     }
   ]
 }

@@ -12,13 +12,15 @@
       "name": "Test SSH Credentials",
       "path": "Test_SSH_Credentials.zip",
       "description": "Check if SSH credentials can connect ot device",
-      "integrations": ["Common"]
+      "integrations": ["Common"],
+      "tags": ["team:security"]
     },
 	{
       "name": "What is my IP",
       "path": "What_is_My_IP.zip",
       "description": "https://www.whatismyip.com/",
-      "integrations": ["Common"]
+      "integrations": ["Common"],
+      "tags": ["team:security"]
     }
   ]
 }
