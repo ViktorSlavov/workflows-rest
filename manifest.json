@@ -11,7 +11,7 @@
       "path": "System Testing"
     }
   ],
-  "bundles": ["https://github.com/ViktorSlavov/workflows-resource-creation/raw/refs/heads/main/manifest.json", "https://github.com/IBM/Concert/raw/refs/tags/v2.4.0.prerelease01/concert-workflows/manifest.json"],
+  "bundles": ["https://raw.githubusercontent.com/ViktorSlavov/workflows-resource-creation/refs/heads/main/manifest.json", "https://raw.githubusercontent.com/IBM/Concert/refs/tags/v2.4.0.prerelease01/concert-workflows/manifest.json"],
   "tagDefinitions": [{
 	"id": "team",
 	"name": "Team",
