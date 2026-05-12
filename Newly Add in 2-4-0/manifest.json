@@ -1,0 +1,13 @@
+{
+  "name": "Newly added thing",
+  "description": "IS added recently",
+  "entries": [
+    {
+      "name": "Cool new flow",
+      "path": "AWS_EC2_Instance_IP_and_Tag_Map.zip",
+      "description": "Cool and new",
+      "integrations": ["AWS", "Common"],
+      "tags": ["team:new"]
+    }
+  ]
+}

@@ -9,6 +9,10 @@
     {
       "name": "System Testing",
       "path": "System Testing"
+    },
+    {
+      "name": "Newly Add in 2-4-0",
+      "path": "Newly Add in 2-4-0"
     }
   ],
   "bundles": [
