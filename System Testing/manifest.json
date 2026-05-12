@@ -21,6 +21,13 @@
       "description": "https://www.whatismyip.com/",
       "integrations": ["Common"],
       "tags": ["team:security"]
+    },
+    {
+      "name": "Second Entry",
+      "path": "Second_Entry.zip",
+      "description": "Is a duplicate of Check Pliant Instance Health",
+      "integrations": ["IBM", "Common"],
+      "tags": ["team:test"]
     }
   ]
 }
