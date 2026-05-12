@@ -11,19 +11,32 @@
       "path": "System Testing"
     }
   ],
-  "bundles": ["https://raw.githubusercontent.com/ViktorSlavov/workflows-resource-creation/refs/heads/main/manifest.json", "https://raw.githubusercontent.com/IBM/Concert/refs/tags/v2.4.0.prerelease01/concert-workflows/manifest.json"],
-  "tagDefinitions": [{
-	"id": "team",
-	"name": "Team",
-	"description": "This denotes a filter",
-	"values": [{
-		"id": "team:security",
-		"name": "Security",
-		"description": "Will be used by security team (overwritten_"
-	}, {
-		"id": "team:test",
-		"name": "Test Team",
-		"description": "Team responsible for testing testy stuff."
-	}]
-  }]
+  "bundles": [
+    "https://raw.githubusercontent.com/ViktorSlavov/workflows-resource-creation/refs/heads/main/manifest.json",
+    "https://raw.githubusercontent.com/IBM/Concert/refs/tags/v2.4.0.prerelease01/concert-workflows/manifest.json"
+  ],
+  "tagDefinitions": [
+    {
+      "id": "team",
+      "name": "Team",
+      "description": "This denotes a filter",
+      "values": [
+        {
+          "id": "team:security",
+          "name": "Security",
+          "description": "Will be used by security team (overwritten_"
+        },
+        {
+          "id": "team:test",
+          "name": "Test Team",
+          "description": "Team responsible for testing testy stuff."
+        },
+        {
+          "id": "team:new",
+          "name": "New Teams",
+          "description": "This is for new teams."
+        }
+      ]
+    }
+  ]
 }

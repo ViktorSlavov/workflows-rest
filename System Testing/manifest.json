@@ -9,11 +9,11 @@
       "integrations": ["IBM", "Common"]
     },
 	{
-      "name": "Test SSH Credentials",
+      "name": "Test Something with a new name that is changed ",
       "path": "Test_SSH_Credentials.zip",
-      "description": "Check if SSH credentials can connect ot device",
+      "description": "Tests things",
       "integrations": ["Common"],
-      "tags": ["team:security"]
+      "tags": ["team:security", "team:new"]
     },
 	{
       "name": "What is my IP",
